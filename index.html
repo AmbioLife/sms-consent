@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ambio Life Sciences SMS consent, messaging terms, opt-in disclosure, opt-out instructions, and A2P 10DLC campaign verification details." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="SMS Consent & Messaging Terms | Ambio Life Sciences" />
+  <meta property="og:description" content="Public SMS consent and messaging disclosure page for Ambio Life Sciences patient communications." />
+  <meta property="og:type" content="website" />
+  <title>SMS Consent & Messaging Terms | Ambio Life Sciences</title>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalOrganization",
+    "name": "Ambio Life Sciences",
+    "url": "https://www.ambio.life",
+    "email": "info@ambio.life",
+    "description": "Ambio Life Sciences sends transactional SMS messages to patients for appointment reminders, scheduling updates, treatment program communications, medication or prescription instructions, post-treatment follow-up, and care coordination.",
+    "sameAs": [
+      "https://www.ambio.life/privacy-policy",
+      "https://www.ambio.life/terms-of-service"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Patient Support",
+      "email": "info@ambio.life",
+      "availableLanguage": "English"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "SMS Messaging Disclosures",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "name": "Transactional Patient SMS Communications",
+          "description": "Patients may receive transactional SMS messages related to appointments, scheduling, treatment programs, care coordination, medication or prescription instructions, and post-treatment follow-up. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for assistance."
+        }
+      ]
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --page-bg: rgb(213, 208, 202);
+      --primary: #12372a;
+      --primary-2: #1f4d3a;
+      --accent: #008f5a;
+      --accent-soft: #eaf5ef;
+      --text: #1f2933;
+      --muted: #5f6f7a;
+      --border: #d8d2ca;
+      --white: #ffffff;
+      --warning: #7a4b00;
+      --warning-bg: #fff7e6;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: var(--page-bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--primary-2));
+      color: var(--white);
+      padding: 52px 20px 72px;
+      text-align: center;
+    }
+
+    header .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 6px 14px;
+      border: 1px solid rgba(255,255,255,0.35);
+      border-radius: 999px;
+      color: #d9f5e9;
+      font-size: 0.85rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    header h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.15;
+    }
+
+    header p {
+      max-width: 820px;
+      margin: 0 auto;
+      color: #e6fff2;
+      font-size: 1.07rem;
+    }
+
+    main {
+      max-width: 1060px;
+      margin: -44px auto 60px;
+      padding: 0 20px;
+    }
+
+    section, .review-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px;
+      margin-bottom: 22px;
+      box-shadow: 0 10px 28px rgba(18, 55, 42, 0.08);
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-top: 0;
+      font-size: 1.35rem;
+      line-height: 1.3;
+    }
+
+    h3 {
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--primary);
+      font-weight: 700;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+    }
+
+    .review-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .review-item {
+      border: 1px solid var(--border);
+      background: #fbfaf8;
+      border-radius: 14px;
+      padding: 16px;
+    }
+
+    .review-item strong {
+      display: block;
+      color: var(--primary);
+      margin-bottom: 6px;
+      font-size: 0.95rem;
+    }
+
+    .review-item span {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .notice {
+      border-left: 5px solid var(--accent);
+      background: var(--accent-soft);
+      padding: 16px 18px;
+      border-radius: 12px;
+      margin: 18px 0;
+      font-weight: 650;
+    }
+
+    .warning {
+      border-left: 5px solid var(--warning);
+      background: var(--warning-bg);
+      padding: 16px 18px;
+      border-radius: 12px;
+      margin: 18px 0;
+      color: var(--warning);
+      font-weight: 650;
+    }
+
+    .consent-box {
+      border: 1px dashed var(--accent);
+      background: #fbfffd;
+      padding: 18px;
+      border-radius: 14px;
+      margin-top: 16px;
+    }
+
+    .checkbox-row {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      margin-top: 14px;
+    }
+
+    .checkbox {
+      width: 21px;
+      height: 21px;
+      border: 2px solid var(--primary);
+      border-radius: 5px;
+      flex: 0 0 auto;
+      margin-top: 3px;
+      background: #ffffff;
+    }
+
+    .sample {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      padding: 16px;
+      margin: 12px 0;
+    }
+
+    .label {
+      display: inline-block;
+      background: var(--accent-soft);
+      color: var(--primary);
+      border: 1px solid #cde7d9;
+      border-radius: 999px;
+      padding: 4px 10px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .muted {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .evidence-placeholder {
+      border: 2px dashed #b6aca1;
+      background: #fbfaf8;
+      border-radius: 16px;
+      padding: 24px;
+      text-align: center;
+      color: var(--muted);
+      margin-top: 16px;
+    }
+
+    footer {
+      text-align: center;
+      color: #3f4f49;
+      padding: 30px 20px 50px;
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 860px) {
+      .review-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 560px) {
+      section, .review-card {
+        padding: 22px;
+      }
+
+      .review-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="eyebrow">A2P 10DLC SMS Compliance Disclosure</span>
+    <h1>SMS Consent & Messaging Terms</h1>
+    <p>
+      This public page explains how Ambio Life Sciences collects consent to send transactional SMS messages to patients regarding appointments, treatment programs, scheduling updates, medication or prescription instructions, post-treatment follow-up, and care coordination.
+    </p>
+  </header>
+
+  <main>
+    <div class="review-card" aria-label="Campaign verification summary">
+      <h2>Campaign Verification Summary</h2>
+      <p>
+        This page is provided as public opt-in evidence for SMS campaign review. It identifies the SMS use case, consent collection process, required disclosures, opt-out process, help instructions, and privacy commitments.
+      </p>
+
+      <div class="review-grid">
+        <div class="review-item">
+          <strong>Message Type</strong>
+          <span>Transactional patient communications only</span>
+        </div>
+        <div class="review-item">
+          <strong>Opt-In Method</strong>
+          <span>Online intake, registration, signed consent, or patient record update</span>
+        </div>
+        <div class="review-item">
+          <strong>Opt-Out</strong>
+          <span>Reply STOP to unsubscribe</span>
+        </div>
+        <div class="review-item">
+          <strong>Help</strong>
+          <span>Reply HELP or email info@ambio.life</span>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <h2>SMS Program Description</h2>
+      <p>
+        Ambio Life Sciences may send one-time transactional SMS messages to existing patients regarding treatment programs, appointment reminders, scheduling updates, prescription or medication instructions, post-treatment follow-up, and other direct healthcare communications.
+      </p>
+      <p>
+        SMS messages are sent only to patients who have provided their phone number and consented to receive text messages related to their care.
+      </p>
+      <div class="notice">
+        Ambio Life Sciences does not send promotional or marketing SMS messages through this campaign.
+      </div>
+    </section>
+
+    <section>
+      <h2>How Patients Opt In</h2>
+      <p>
+        Patients may opt in through one or more of the following consent paths:
+      </p>
+      <ol>
+        <li>
+          <strong>Website or online intake:</strong> Patients provide their mobile phone number during online registration, intake, account creation, or while updating their patient record.
+        </li>
+        <li>
+          <strong>Consent disclosure:</strong> Patients are shown SMS consent language before submitting their information.
+        </li>
+        <li>
+          <strong>Affirmative consent:</strong> Patients check a consent checkbox or sign a consent form confirming that they agree to receive SMS messages related to treatment, appointments, scheduling, medication or prescription instructions, post-treatment follow-up, and care coordination.
+        </li>
+        <li>
+          <strong>CRM record update:</strong> Patient consent status is stored in Ambio Life Sciences’ patient management process and Microsoft Dynamics CRM.
+        </li>
+        <li>
+          <strong>Message delivery:</strong> SMS messages are sent only after consent has been collected and recorded.
+        </li>
+      </ol>
+
+      <div class="consent-box">
+        <span class="label">Required Opt-In Disclosure</span>
+        <h3>Example SMS Consent Checkbox Language</h3>
+        <div class="checkbox-row">
+          <div class="checkbox" aria-hidden="true"></div>
+          <p>
+            By providing my phone number, I consent to receive SMS messages from Ambio Life Sciences related to my treatment, appointments, scheduling updates, prescription or medication instructions, post-treatment follow-up, and care coordination. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for assistance. I understand that consent to receive SMS messages is not a condition of receiving care.
+          </p>
+        </div>
+        <p class="muted">
+          View our <a href="https://www.ambio.life/privacy-policy">Privacy Policy</a> and <a href="https://www.ambio.life/terms-of-service">Terms of Service</a>.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Required SMS Disclosures</h2>
+      <ul>
+        <li><strong>Program name:</strong> Ambio Life Sciences patient communications.</li>
+        <li><strong>Purpose:</strong> Appointment reminders, scheduling updates, treatment-related communications, medication or prescription instructions, post-treatment follow-up, and care coordination.</li>
+        <li><strong>Message frequency:</strong> Message frequency varies based on the patient’s care, appointment schedule, and treatment-related updates.</li>
+        <li><strong>Fees:</strong> Message and data rates may apply.</li>
+        <li><strong>Opt-out:</strong> Reply STOP to opt out of future SMS messages.</li>
+        <li><strong>Help:</strong> Reply HELP for assistance or contact <a href="mailto:info@ambio.life">info@ambio.life</a>.</li>
+        <li><strong>Privacy:</strong> Mobile numbers are not sold, rented, or shared with third parties for their marketing or promotional purposes.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Message Frequency</h2>
+      <p>
+        Message frequency varies based on each patient’s appointments, treatment program, scheduling updates, medication or prescription instructions, and care-related communications. Patients may receive messages only when there is a relevant transactional update or reminder.
+      </p>
+    </section>
+
+    <section>
+      <h2>Opt-Out Instructions</h2>
+      <p>
+        Patients may opt out of SMS messages at any time by replying <strong>STOP</strong> to any message received from Ambio Life Sciences.
+      </p>
+      <p>
+        After opting out, patients may no longer receive SMS appointment reminders, care updates, or scheduling-related text messages unless they opt back in through an approved consent process.
+      </p>
+    </section>
+
+    <section>
+      <h2>Help Instructions</h2>
+      <p>
+        Patients may reply <strong>HELP</strong> to any SMS message for assistance. Patients may also contact Ambio Life Sciences directly at <a href="mailto:info@ambio.life">info@ambio.life</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Message and Data Rates</h2>
+      <p>
+        Message and data rates may apply depending on the patient’s mobile carrier and plan.
+      </p>
+    </section>
+
+    <section>
+      <h2>Privacy and Mobile Number Sharing</h2>
+      <p>
+        Ambio Life Sciences respects patient privacy. Mobile phone numbers collected for SMS communications are used only for patient-related transactional communications.
+      </p>
+      <p>
+        Ambio Life Sciences does not sell, rent, or share mobile phone numbers with third parties for their marketing or promotional purposes.
+      </p>
+      <p>
+        For more information, please review our <a href="https://www.ambio.life/privacy-policy">Privacy Policy</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Sample SMS Messages</h2>
+      <div class="sample">
+        <span class="label">Appointment Reminder</span><br />
+        Hi John, this is a reminder for your appointment at Ambio Life Sciences on 04/12/2026 at 10:00 AM. Reply STOP to opt out, HELP for help. Message &amp; data rates may apply.
+      </div>
+      <div class="sample">
+        <span class="label">Post-Visit Follow-Up</span><br />
+        Hi John, this is a follow-up from Ambio Life Sciences regarding your recent visit. Please contact us at info@ambio.life if you have questions. Reply STOP to opt out, HELP for help. Message &amp; data rates may apply.
+      </div>
+    </section>
+
+    <section>
+      <h2>Opt-In Evidence for Campaign Review</h2>
+      <p>
+        Ambio Life Sciences can provide screenshots or documentation showing the SMS consent checkbox, intake form, signed consent form, or CRM consent field used to confirm patient opt-in before SMS messages are sent.
+      </p>
+      
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ambio Life Sciences. All rights reserved.</p>
+    <p>
+      <a href="https://www.ambio.life/privacy-policy">Privacy Policy</a> | <a href="https://www.ambio.life/terms-of-service">Terms of Service</a>
+    </p>
+  </footer>
+</body>
+</html>
